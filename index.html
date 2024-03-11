@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-SHOPPING</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>E-SHOPPING</h1>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Sobre a Loja</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="principal">
+                <article class="descricao-loja">
+                    <div class=" imagem">
+                        <img src="//via.placeholder.com/420x420" />
+                        <div class="titulo">
+                            <h2>Sobre a Loja</h2>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum maiores
+                                cupiditate
+                                vitae vel dolore sint nobis numquam aperiam. Quasi suscipit iusto ullam saepe quo
+                                tenetur voluptatum sunt consequatur sapiente? </h3>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <section >
+            <div id="produto">
+                <h2>Produtos</h2>
+            </div>
+            <div class="produtos">
+                <article class="noticia">
+                    <div class="produto">
+                        <img src="//via.placeholder.com/320x320" />
+                        <h2>Tenis</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem error
+                            esse </h3>
+                        <button type="submit">Adicionar</button>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="produto">
+                        <img src="//via.placeholder.com/320x320" />
+                        <h2>Tenis</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem error
+                            esse </h3>
+                        <button type="submit">Adicionar</button>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="produto">
+                        <img src="//via.placeholder.com/320x320" />
+                        <h2>Tenis</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem error
+                            esse </h3>
+                        <button type="submit">Adicionar</button>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="produto">
+                        <img src="//via.placeholder.com/320x320" />
+                        <h2>Tenis</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem error
+                            esse </h3>
+                        <button type="submit">Adicionar</button>
+                    </div>
+                </article>
+
+
+
+            </div>
+        </section>
+        <div class="botao-menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('.botao-menu button').click(function () {
+                $('.menu').slideToggle();
+            })
+        })
+
+    </script>
+</body>
+
+
+</html>
